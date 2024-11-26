@@ -1,0 +1,9 @@
+source /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/i3/build/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/atmospheric_HNL/get_hnl_integrals.py
+****************************************************************
+I3_BUILD CHANGED
+It appears that you are attempting to load an icetray environment different
+than the one already loaded
+          This I3_BUILD=/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/i3/build
+Already loaded I3_BUILD=/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1
+****************************************************************
+Environment not (re)loaded.

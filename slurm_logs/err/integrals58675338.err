@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/atmospheric_HNL/get_hnl_integrals.py", line 104, in <module>
+    integ = vegas.Integrator([cos_z_range, E_range])
+NameError: name 'vegas' is not defined

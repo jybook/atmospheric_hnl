@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/atmospheric_HNL/get_hnl_integrals.py", line 127, in <module>
+    integrals[i][j] = total_integral(minE, maxE, mHNL, U2)[0]
+NameError: name 'U2' is not defined

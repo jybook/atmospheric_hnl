@@ -1,0 +1,22 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/RHEL_8_x86_64/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/RHEL_8_x86_64/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/atmospheric_HNL/get_hnl_integrals.py", line 121, in compute_event
+    part_func = functools.partial(total_events_predicted, mass, mixing)
+NameError: name 'total_events_predicted' is not defined
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/atmospheric_HNL/get_hnl_integrals.py", line 133, in <module>
+    results = pool.map(compute_event, param_list)
+  File "/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/RHEL_8_x86_64/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/RHEL_8_x86_64/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+NameError: name 'total_events_predicted' is not defined
